@@ -22,7 +22,7 @@ apt install zsh -y
 
 # Install Oh My Zsh
 echo -e "\e[31mInstalling Oh My Zsh...\e[0m"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
 
 # Set Zsh as default shell
 echo -e "\e[31mSetting Zsh as the default shell...\e[0m"
